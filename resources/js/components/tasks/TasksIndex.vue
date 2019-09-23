@@ -14,7 +14,6 @@
                         <th width="180px">Телефон</th>
                         <th>Текст</th>
                         <th width="80px">Место</th>
-                        <!-- <th width="100">&nbsp;</th> -->
                     </tr>
                     </thead>
                     <tbody>
@@ -24,17 +23,6 @@
                         <td>{{ task.phone }}</td>
                         <td>{{ task.text }}</td>
                         <td>{{ task.space }}</td>
-                        <!-- кнопки удаления и редактирования -->
-                        <!-- <td>
-                            <router-link :to="{name: 'editTask', params: {id: task.id}}" class="btn btn-sm btn-danger">
-                                Edit
-                            </router-link>
-                            <a href="#"
-                               class="btn btn-sm btn-danger my-2"
-                               v-on:click="deleteEntry(task.id, index)">
-                                Delete
-                            </a>
-                        </td> -->
                     </tr>
                     </tbody>
                 </table>

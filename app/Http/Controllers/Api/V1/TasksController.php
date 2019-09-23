@@ -67,7 +67,6 @@ class TasksController extends Controller
     public function show($id)
     {
         //
-        // return Task::findOrFail($id);
     }
 
     /**
@@ -91,10 +90,6 @@ class TasksController extends Controller
     public function update(Request $request, $id)
     {
         //
-        // $task = Task::findOrFail($id);
-        // $task->update($request->all());
- 
-        // return $task;
     }
 
     /**
@@ -106,8 +101,5 @@ class TasksController extends Controller
     public function destroy($id)
     {
         //
-        // $task = Task::findOrFail($id);
-        // $task->delete();
-        // return '';
     }
 }
